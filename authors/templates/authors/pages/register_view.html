@@ -1,0 +1,15 @@
+{% extends 'global/base.html' %}
+
+{% block title %}Resgister | {% endblock title %}
+
+{% block content %}
+    <div class="main-content center container">
+        <h2>Register {{ request.session.number }}</h2>
+    </div>
+
+    {% include 'global/partials/message.html' %}
+    {% include 'global/partials/form.html' %}
+
+
+{% endblock content %}
+
